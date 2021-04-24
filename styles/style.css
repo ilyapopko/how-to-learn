@@ -66,7 +66,7 @@
   right: 0;
   bottom: 0;
   align-self: flex-end;
-  z-index: 1;
+  z-index: -1;  /*Запутался по видимому с этим. Здесь вообще не должно было быть этого поля. Оно должно было быть = 0. Но сделал уже как сказано ).*/
 }
 .header__square-pic {
   height: 568px;
@@ -75,7 +75,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: -1;
+  z-index: -2;
 }
 .logo {
   width: 183px;

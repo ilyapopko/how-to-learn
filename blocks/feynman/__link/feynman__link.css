@@ -6,7 +6,9 @@
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
+  transition: opacity .8s ease;
+
 }
 .feynman__link:hover{
-  text-decoration: underline;
+  opacity: 0.6;
 }

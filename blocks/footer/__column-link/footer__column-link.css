@@ -5,7 +5,9 @@
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
+  transition: opacity .8s ease;
+
 }
 .footer__column-link:hover{
-  text-decoration: underline;
+  opacity: 0.6;
 }
